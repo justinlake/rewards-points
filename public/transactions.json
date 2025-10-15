@@ -1,0 +1,92 @@
+[
+    {
+        "customer": "Wayne Gretzky",
+        "amount": 90,
+        "date": "2025-07-02"
+    },
+    {
+        "customer": "Bob Ross",
+        "amount": 130,
+        "date": "2025-07-04"
+    },
+    {
+        "customer": "Sarah Connor",
+        "amount": 120,
+        "date": "2025-07-05"
+    },
+    {
+        "customer": "James Bond",
+        "amount": 60,
+        "date": "2025-07-11"
+    },
+    {
+        "customer": "Buzz Lightyear",
+        "amount": 40,
+        "date": "2025-07-18"
+    },
+    {
+        "customer": "Tim Burton",
+        "amount": 55,
+        "date": "2025-07-27"
+    },
+    {
+        "customer": "Tim Burton",
+        "amount": 200,
+        "date": "2025-08-06"
+    },
+    {
+        "customer": "Buzz Lightyear",
+        "amount": 75,
+        "date": "2025-08-10"
+    },
+    {
+        "customer": "Sarah Connor",
+        "amount": 85,
+        "date": "2025-08-14"
+    },
+    {
+        "customer": "Bob Ross",
+        "amount": 170,
+        "date": "2025-08-19"
+    },
+    {
+        "customer": "James Bond",
+        "amount": 95,
+        "date": "2025-08-22"
+    },
+    {
+        "customer": "Wayne Gretzky",
+        "amount": 125,
+        "date": "2025-08-30"
+    },
+    {
+        "customer": "Buzz Lightyear",
+        "amount": 110,
+        "date": "2025-09-02"
+    },
+    {
+        "customer": "James Bond",
+        "amount": 150,
+        "date": "2025-09-07"
+    },
+    {
+        "customer": "Wayne Gretzky",
+        "amount": 45,
+        "date": "2025-09-08"
+    },
+    {
+        "customer": "Sarah Connor",
+        "amount": 210,
+        "date": "2025-09-09"
+    },
+    {
+        "customer": "Bob Ross",
+        "amount": 80,
+        "date": "2025-09-15"
+    },
+    {
+        "customer": "Tim Burton",
+        "amount": 140,
+        "date": "2025-09-22"
+    }
+]
