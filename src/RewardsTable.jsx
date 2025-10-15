@@ -5,15 +5,15 @@ const RewardsTable = ({ summary, months }) => (
     <table className="rewards-table">
       <thead>
         <tr>
-          <th>Customer</th>
-          { months.map((month) => <th key={ month }>{ month }</th>) }
-          <th>Total</th>
+          <th scope="col">Customer</th>
+          { months.map((month) => <th key={ month } scope="col">{ month }</th>) }
+          <th scope="col">Total</th>
         </tr>
       </thead>
       <tbody>
         { Object.entries(summary).map(([customer, { months: monthPoints, total }]) => (
-          <tr key={customer}>
-            <td className="customer-name">{ customer }</td>
+          <tr key={ customer }>
+            <th className="customer-name" scope="row">{ customer }</th>
             { months.map((month) => <td key={ month }>{ monthPoints[month] || 0 }</td>) }
             <td className="total-points">{ total }</td>
           </tr>
