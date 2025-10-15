@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  text-align: center;
+}
+
+.loading {
+  color: #666;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.rewards-table {
+  border-collapse: collapse;
+  margin: auto;
+  min-width: 600px;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  th {
+    background-color: #008;
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    td {
+      background-color: #eee;
+    }
+  }
+}
+
+.customer-name,
+.total-points {
+  font-weight: bold;
+}
