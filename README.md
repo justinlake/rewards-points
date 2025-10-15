@@ -31,8 +31,8 @@ The app calculates monthly and total reward points for each customer based on th
 
 ```
 src/
-├── App.js              # Main component: fetches data & computes summary
-├── RewardsTable.js     # Presentation component for the points table
+├── App.jsx             # Main component: fetches data & computes summary
+├── RewardsTable.jsx    # Presentation component for the points table
 ├── App.css             # Basic styles
 └── main.jsx            # Application entry point
 public/
