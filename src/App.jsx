@@ -26,7 +26,13 @@ const App = () => {
         if (!response.ok) throw new Error("Failed to fetch data");
         const transactions = await response.json();
 
-        const { summary, monthSet } = transactions.reduce(
+        const sortedDataByName = transactions.sort((a, b) => {
+          const lastA = a.customer.split(" ").pop().toLowerCase();
+          const lastB = b.customer.split(" ").pop().toLowerCase();
+          return lastA.localeCompare(lastB);
+        });
+
+        const { summary, monthSet } = sortedDataByName.reduce(
           (acc, { customer, amount, date }) => {
             const month = getMonthKey(date);
             const points = calculatePoints(amount);
